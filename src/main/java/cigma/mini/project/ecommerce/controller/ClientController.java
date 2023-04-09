@@ -11,6 +11,4 @@ public interface ClientController {
     BasketVo getBasketById(Long id);
 
     BasketVo updateBasket(BasketVo basketVo);
-
-    boolean deleteBasket(BasketVo basketVo);
 }
